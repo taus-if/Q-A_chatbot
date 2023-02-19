@@ -1,0 +1,20 @@
+{"intents": [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+  "responses":  ["Hello!", "Hey!", "What can I do for you?"],
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["See you letter", "Goodbye", "I am leaving", "Have a good day", "bye"],
+    "responses": ["Goodbye!", "Talk to you letter"]
+  },
+  {"tag": "name",
+  "patterns": ["What is your name", "what should I call you", "whats your name?", "who are you", "can you tell me your name"],
+  "responses":  ["I am Banglafire Chatbot.", "You can call me Banglafire Chatbot", "I am Banglafire Chatbot here to assist you"]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["what are your hours", "Your service hours", "when are you active"],
+    "responses": ["24/7"]
+  }
+]}
